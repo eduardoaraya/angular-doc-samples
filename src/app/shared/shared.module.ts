@@ -6,7 +6,7 @@ import { ContentComponent } from './components/content/content.component';
 
 @NgModule({
   declarations: [InputComponent, ButtonComponent, ContentComponent],
-  exports: [ContentComponent],
+  exports: [InputComponent, ButtonComponent, ContentComponent],
   imports: [CommonModule],
 })
 export class SharedModule {}
